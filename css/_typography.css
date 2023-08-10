@@ -1,0 +1,21 @@
+h1,
+h2,
+h3,
+h4 ,
+h5{
+    font-family: 'Press Start 2P', serif;
+    margin-top: 0;
+    text-transform: capitalize;
+}
+
+h1 {
+    font-size: 2.1rem;
+}
+
+p,
+button,
+label,
+span {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0;
+}

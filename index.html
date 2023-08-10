@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../public/icons/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Space war</title>
+</head>
+
+<body>
+    <div class="game">
+        <section class="start-screen">
+            <h1 class="start-screen-title">space wars</h1>
+            <label for="player">Player name</label>
+            <input class="username-input" type="text" name="player" id="player" required>
+            <p class="username-input-message hidden">username needs to be filed!</p>
+            <article class="start-screen-ships">
+                <form class="form" action="">
+                    <label class="start-screen-ships-option" for="shipOne">
+                        <input type="radio" id="shipOne" name="ship" value="../public/images/ships/1.png">
+                        <img src="../public/images/ships/1.png" alt="">
+                    </label>
+                    <label class="start-screen-ships-option" for="shipTwo">
+                        <input type="radio" id="shipTwo" name="ship" value="../public/images/ships/2.png">
+                        <img src="../public/images/ships/2.png" alt="">
+                    </label>
+                    <label class="start-screen-ships-option" for="shipThree">
+                        <input type="radio" id="shipThree" name="ship" value="../public/images/ships/3.png">
+                        <img src="../public/images/ships/3.png" alt="">
+                    </label>
+                </form>
+            </article>
+            <button>press to start</button>
+        </section>
+
+        <section class="game-screen hidden">
+            <article class="game-screen-information">
+                <h4 class="game-screen-username"></h4>
+                <div class="score-points">
+                    <p class="score"></p>
+                    <span>points</span>
+                </div>
+                <div class="lifes-wrapper">
+                    <h5>Lifes:</h5>
+                    <h5 class="lifes"></h5>
+                </div>
+            </article>
+        </section>
+
+        <section class="game-over-screen hidden">
+            <article class="game-over-content">
+                <h1>game over</h1>
+                <div>
+                    <h4>You score is:</h4>
+                    <h4 class="final-score"></h4>
+                </div>
+            </article>
+        </section>
+
+
+    </div>
+    <script src="js/gameState.js"></script>
+    <script src="js/gameObjects.js"></script>
+    <script src="js/gameEngine.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

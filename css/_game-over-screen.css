@@ -1,0 +1,42 @@
+.game-over-screen {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #00000077;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-over-content {
+    box-shadow: 0 0 1rem 0.1rem #000;
+    box-shadow: 0 0 15px 2px #fff;
+    background: #000;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    width: 25rem;
+    height: auto;
+}
+
+.game-over-content>div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.game-over-content>h1,
+.game-over-content>div>h4 {
+    text-align: center;
+    color: rgb(40, 253, 171);
+    -webkit-text-stroke: 0.5px #000;
+}
+
+.game-over-content>div>h4:nth-of-type(2){
+    margin-left: 1rem;
+}
+
+.hidden {
+    display: none;
+}
