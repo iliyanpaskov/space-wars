@@ -13,7 +13,7 @@ body {
     padding: 0;
     width: 100vw;
     height: 100vh;
-    background: url('../../public/images/1124099.jpg');
+    background-image: url(../images/1124099.jpg);
     background-size: cover;
     object-fit: cover;
 }

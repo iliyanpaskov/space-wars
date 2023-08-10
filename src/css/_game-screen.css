@@ -55,7 +55,7 @@
 
 .electricball{
     position: absolute;
-    background-image: url(../../public/images/balls/ball4.png);
+    background-image: url(../images/balls/ball4.png);
     background-size: cover ;
 }
 
@@ -63,7 +63,7 @@
     position: absolute;
     width: 2.4rem;
     height: 2.4rem;
-    background-image: url(../../public/images/ships/a.png);
+    background-image: url(../images/ships/a.png);
     background-repeat: no-repeat;
     background-size: cover ;
     transform: rotate(180deg);
@@ -74,7 +74,7 @@
     position: absolute;
     width: 3.5rem;
     height: 3.5rem;
-    background-image: url(../../public/images/ships/f.png);
+    background-image: url(../images/ships/f.png);
     background-repeat: no-repeat;
     background-size: cover ;
     transform: rotate(180deg);
@@ -85,7 +85,7 @@
     position: absolute;
     width: 4.2rem;
     height: 4.2rem;
-    background-image: url(../../public/images/ships/boss.png);
+    background-image: url(../images/ships/boss.png);
     background-repeat: no-repeat;
     background-size: cover ;
     transform: rotate(360deg);
@@ -98,7 +98,7 @@
     position: absolute;
     width: 3.5rem;
     height: 2.5rem;
-    background-image: url(../../public/images/bonus.jpg);
+    background-image: url(../images/bonus.jpg);
     background-repeat: no-repeat;
     background-size: cover ;
     border-radius: 1rem;
@@ -107,13 +107,13 @@
 }
 
 .enemy-destroyed {
-    background-image: url(../../public/images/explosions/explosion2.png);
+    background-image: url(../images/explosions/explosion2.png);
     background-repeat: no-repeat;
     background-size: contain ;
 }
 
 .ship-destroyed {
-    background-image: url(../../public/images/explosions/explosion1.png);
+    background-image: url(../images/explosions/explosion1.png);
     background-repeat: no-repeat;
     background-size: contain ;
 }
