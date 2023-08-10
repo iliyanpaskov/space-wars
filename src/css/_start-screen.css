@@ -1,7 +1,7 @@
 .start-screen {
     position: absolute;
     width: 22rem;
-    height: 25rem;
+    height: 30rem;
     text-align: center;
     padding: 0.7rem;
     border-radius: 1rem;
@@ -57,7 +57,7 @@
 }
 
 .start-screen>button:hover {
-    background: rgb(175, 7, 253);
+    background: #af07fd;
     animation: shake 0.5s infinite;
     cursor: pointer;
 }
@@ -85,8 +85,26 @@
     border-radius: 0.3rem;
 }
 
+.start-screen-ships-option:hover{
+    cursor: pointer;
+    background: linear-gradient(52deg, rgba(40,253,171,1) 0%, rgba(175,7,253,0.27503501400560226) 58%);
+}
+
 .start-screen-ships-option>img{
     width: 100%;
+}
+
+.start-screen-image-wrapper{
+    display: flex;
+    width: 80%;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin:0.5rem auto;
+}
+
+.start-screen-image{
+    width: 40%;
+    object-fit: contain;
 }
 
 .hidden {
